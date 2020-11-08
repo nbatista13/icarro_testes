@@ -19,7 +19,7 @@ public class HomePageTests extends BaseTests {
 		carregarPaginaInicial();
 		homePage.acessaLista();
 		assertThat(ListaAnunciosCarroPage.contarCarros(), is(20));
-		Screenshot.print(driver, "C:\\Users\\Estudo\\evidencia\\ValidaCarroUm\\" + Generator.dataHoraParaArquivo()
+		Screenshot.print(driver, "C:\\Users\\Estudo\\evidencia\\ValidaQtdLista\\" + Generator.dataHoraParaArquivo()
 		+ "testValidarDetalhesDoPrimeiroCarro_ModeloValorIguais" + ".png");
 
 	}
